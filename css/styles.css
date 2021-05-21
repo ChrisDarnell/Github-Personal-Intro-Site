@@ -1,0 +1,159 @@
+        /* COLORS
+#16697A
+#DB6400
+#FFA62B
+#F8F1F1 
+        */
+
+        /* FONTS 
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Sacramento', cursive;
+        */
+
+body {
+    background-color: #16697A;
+    margin: 0;
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+    color: #F8F1F1; 
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFA62B;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #DB6400
+}
+
+/* table {
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+} */
+
+
+        /* CLASSES  */
+
+a {
+    color: #DB6400;
+}
+
+
+.top-container {
+    color: #F8F1F1; 
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container { 
+
+}
+
+.github-link {
+    padding-right: 2px;
+}
+
+
+.sun-img {
+    position: absolute;
+    right: 125px;
+    top: 15px;
+    width: 25%;
+    height: 25%;
+}
+
+.balloon-img {
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+    width: 15%;
+    height: 25%;
+}
+
+.city-img {
+    filter: grayscale(50%);
+    margin-bottom: 50px;
+}
+
+.selfie {
+    width: 8.25rem;
+    height: 8.25rem;
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;   
+}
+
+.current-job {
+    width: 50%;
+    margin: 0px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.nyu-img {
+    width: 25%;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.nyu {  
+    position: absolute;
+    right: 303px;
+    top: 1920px;
+}
+
+
+.osu-img {
+    width: 25%;
+    filter: invert(57%) sepia(90%) saturate(732%) hue-rotate(360deg) brightness(102%) contrast(105%);
+    margin-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+.osu {
+    position: absolute;
+    right: 300px;
+    top: 1750px;
+}
+    
+
+.trimble-img {
+    width: 25%;
+    filter: grayscale(50%) invert(80%);   
+}
+
+
+        /* IDs  */
+
+
+
+
+
+
