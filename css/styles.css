@@ -3,6 +3,7 @@
 #DB6400
 #FFA62B
 #F8F1F1 
+#009ddb
         */
 
         /* FONTS 
@@ -38,21 +39,33 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-family: 'Barlow Condensed', sans-serif;
-    color: #DB6400
+    color: #DB6400;
 }
 
-/* table {
+hr {
+    width: 35%;
+    border-style: dashed;
+    color: #009ddb; 
+    margin: 50px auto;
+}
+
+table {
     width: 100%;
     padding-bottom: 20px;
     text-align: center;
-} */
-
-
-        /* CLASSES  */
+}
 
 a {
     color: #DB6400;
 }
+
+a:hover{
+    font-weight:bold;
+    }
+
+
+
+        /* CLASSES  */
 
 
 .top-container {
@@ -62,9 +75,16 @@ a {
 }
 
 .middle-container {
+    margin-bottom: 30px;
+}
+
+.profile {
+    padding-bottom: 50px;
 }
 
 .bottom-container { 
+    background-color: #F8F1F1;
+    padding: 15px 0 15px;
 
 }
 
@@ -80,7 +100,7 @@ a {
 .balloon-img {
     position: absolute;
     left: 100px;
-    bottom: 150px;
+    bottom: 350px;
     width: 15%;
     height: 25%;
 }
@@ -90,7 +110,7 @@ a {
     margin-bottom: 50px;
 }
 
-.selfie {
+.selfie-img {
     width: 8.25rem;
     height: 8.25rem;
 }
@@ -99,34 +119,32 @@ a {
     padding-right: 2px;
 }
 
-
-
-.skill-row {
+.background-section {
     width: 50%;
     margin: 0px auto 0px auto;
     text-align: left;
     line-height: 2;   
 }
 
+
 .nyu {
     position: relative;
     left: 50%;
-    bottom: 100px;
+    bottom: 6.25rem;
 }
 
 .nyu-img {
     width: 15%;
     float: left;
-    margin-right: 30px;
-    padding-top: 20px;
+    margin-right: 1.875rem;
+    padding-top: 1.25rem;
 }
-
 
 .osu-img {
     width: 10%;
     filter: invert(57%) sepia(90%) saturate(732%) hue-rotate(360deg) brightness(102%) contrast(105%);
     float: left;
-    margin-right: 30px;
+    margin-right: 1.875em;
 }
 
 .current-job {
@@ -139,9 +157,53 @@ a {
 
 .trimble-img {
     width: 25%;
-    filter: grayscale(50%) invert(80%);   
+    filter: invert(43%) sepia(47%) saturate(870%) hue-rotate(171deg) brightness(95%) contrast(106%);  
 }
 
+.contact-message {
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #009ddb;
+    background-image: -webkit-linear-gradient(top, #009ddb, #072030);
+    background-image: -moz-linear-gradient(top, #009ddb, #072030);
+    background-image: -ms-linear-gradient(top, #009ddb, #072030);
+    background-image: -o-linear-gradient(top, #009ddb, #072030);
+    background-image: linear-gradient(to bottom, #009ddb, #072030);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFA62B;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #009ddb;
+    background-image: -webkit-linear-gradient(top, #009ddb, #000000);
+    background-image: -moz-linear-gradient(top, #009ddb, #000000);
+    background-image: -ms-linear-gradient(top, #009ddb, #000000);
+    background-image: -o-linear-gradient(top, #009ddb, #000000);
+    background-image: linear-gradient(to bottom, #009ddb, #000000);
+    text-decoration: none;
+  }
+
+  .footer-link {
+    color: #FFA62B;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+  }
+
+  .copyright {
+      color: black;
+      font-size: 14px;
+      margin-top: 8px;
+  }
+
+ 
 
         /* IDs  */
 
