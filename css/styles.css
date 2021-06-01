@@ -43,7 +43,7 @@ h3 {
 }
 
 hr {
-    width: 35%;
+    width: 5%;
     border-style: dashed;
     color: #009ddb; 
     margin: 50px auto;
@@ -57,6 +57,7 @@ table {
 
 a {
     color: #DB6400;
+    text-decoration: none;
 }
 
 a:hover{
@@ -78,14 +79,10 @@ a:hover{
     margin-bottom: 30px;
 }
 
-.profile {
-    padding-bottom: 50px;
-}
 
 .bottom-container { 
     background-color: #F8F1F1;
-    padding: 15px 0 15px;
-
+    padding: 25px 0 10px;
 }
 
 
@@ -195,12 +192,13 @@ a:hover{
     color: #FFA62B;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
+    margin: 10px 20px;
   }
 
   .copyright {
-      color: black;
-      font-size: 14px;
-      margin-top: 8px;
+      color: #DB6400;
+      font-size: .75rem;
+      padding: 20px 0;
   }
 
  
